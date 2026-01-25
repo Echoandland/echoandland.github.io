@@ -40,4 +40,15 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
+   /* Remove highlight behind the site title (top-left name) */
+   .site-title,
+   .site-title:hover,
+   .site-title:focus,
+   .site-title:active,
+   .site-title:focus-visible {
+     background: transparent !important;
+     box-shadow: none !important;
+     outline: none !important;
+   }
+
 ;
