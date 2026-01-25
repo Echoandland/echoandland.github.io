@@ -63,3 +63,33 @@
   box-shadow: none !important;
   outline: none !important;
 }
+
+/* Remove the blue highlight block behind the site title (top-left) */
+.masthead__menu-item--lg,
+.masthead__menu-item--lg:hover,
+.masthead__menu-item--lg:focus,
+.masthead__menu-item--lg:active {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Also remove any background on the actual title link */
+.masthead__menu-item--lg .site-title,
+.masthead__menu-item--lg .site-title:hover,
+.masthead__menu-item--lg .site-title:focus,
+.masthead__menu-item--lg .site-title:active,
+.masthead__menu-item--lg .site-title:focus-visible {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.masthead__menu .site-title,
+.masthead__menu .site-title:hover,
+.masthead__menu .site-title:focus,
+.masthead__menu .site-title:active {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+
