@@ -8,12 +8,11 @@ redirect_from:
 ---
 
 ## About
-I am an undergraduate student at the National University of Singapore (School of Computing).  
-My interests lie in reinforcement learning for large language models and LLM reasoning.
+I am a Year 3 undergraduate student at the National University of Singapore (School of Computing), majoring in Computer Science (AI specialization) and Mathematics.
 
 ## Research Interests
-- Reinforcement Learning for Large Language Models (post-training / alignment)
-- Reasoning in LLMs (test-time adaptation, multi-agent deliberation)
+- Reinforcement Learning
+- LLM Reasoning
 - AI for Scientific Reasoning
 
 ## Latest Publications
