@@ -49,6 +49,15 @@
      background: transparent !important;
      box-shadow: none !important;
      outline: none !important;
+   .masthead__menu-item a,
+   .masthead__menu-item a:hover,
+   .masthead__menu-item a:focus,
+   .masthead__menu-item a:active,
+   .masthead__menu-item a:focus-visible {
+     background: transparent !important;
+     box-shadow: none !important;
+}
+
    }
 
 ;
