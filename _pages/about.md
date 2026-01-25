@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## About
-I am a third-year undergraduate student at National University of Singapore (School of Computing), double majoring in Computer Science (AI specialization) and Mathematics. Outside academics, I enjoy football and music.
+I am a third-year undergraduate student at National University of Singapore (School of Computing), double majoring in Computer Science (AI specialization) and Mathematics. I enjoy football and music outside academics.
 
 ## Research Interests
 - Reinforcement Learning
