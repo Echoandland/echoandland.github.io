@@ -5,59 +5,61 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
-    "vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-    "include/mixins",
-    "vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+  "layout/reset",
+  "layout/base",
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
 
-    "layout/forms",
+  "layout/forms",
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-   /* Remove highlight behind the site title (top-left name) */
-   .site-title,
-   .site-title:hover,
-   .site-title:focus,
-   .site-title:active,
-   .site-title:focus-visible {
-     background: transparent !important;
-     box-shadow: none !important;
-     outline: none !important;
-   .masthead__menu-item a,
-   .masthead__menu-item a:hover,
-   .masthead__menu-item a:focus,
-   .masthead__menu-item a:active,
-   .masthead__menu-item a:focus-visible {
-     background: transparent !important;
-     box-shadow: none !important;
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
+;
+
+/* Remove highlight behind the site title (top-left name) */
+.site-title,
+.site-title:hover,
+.site-title:focus,
+.site-title:active,
+.site-title:focus-visible {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
-   }
-
-;
+/* If the highlight is from nav links, remove it too */
+.masthead__menu-item a,
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus,
+.masthead__menu-item a:active,
+.masthead__menu-item a:focus-visible {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
