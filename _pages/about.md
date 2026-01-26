@@ -20,7 +20,7 @@ I am a third-year undergraduate student at **National University of Singapore (S
   <div>
     <b>Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs</b><br>
     <div style="margin:6px 0;">
-      Zhiyuan Hu, <b>Yucheng Wang</b><sup>†</sup>, Yufei He, Jiaying Wu, Yilun Zhao, See-Kiong Ng, Cynthia Breazeal, Anh Tuan Luu, Hae Won Park, Bryan Hooi
+      Zhiyuan Hu, <b>Yucheng Wang</b><sup>†</sup>, Yufei He<sup>†</sup>, Jiaying Wu, Yilun Zhao, See-Kiong Ng, Cynthia Breazeal, Anh Tuan Luu, Hae Won Park, Bryan Hooi
     </div>
     <div style="margin:6px 0; font-size:0.95em;">
       <sup>†</sup> Co-first author.
