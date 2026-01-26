@@ -7,12 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<a id="about"></a>
 
 I am a third-year undergraduate student at **National University of Singapore (School of Computing)**, double majoring in **Computer Science (AI specialization)** and **Mathematics**. I aim to explore how reinforcement learning and large language models can be combined to build AI systems that reason, plan, and adapt in scientific settings, with the goal of assisting scientific discovery through structured and complex reasoning and decision-making. I am also interested in investigating the mechanisms behind the training dynamics of AI models. I enjoy football and music outside of academics.
 
 ---
-
+<a id="publications"></a>
 ## 📝 Publications
 
 <div style="display:flex; gap:20px; margin-bottom:30px;">
