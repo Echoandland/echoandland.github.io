@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yucheng Wang"
-description              : 
+description              : "Focusing on Reinforcement Learning, NLP research"
 repository               : "Echoandland/echoandland.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "YUCHENG WANG"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Undergraduate student in NUS SoC, focusing on Reinforcement Learning, NLP research"
+  bio              : "Undergraduate student @NUS(SoC)"
   location         : "Singapore"
   employer         : "National University of Singapore"
   pubmed           : 
