@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "YUCHENG WANG"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "YUCHENG WANG"
 description              : &description "Undergraduate student. Research interests: Reinforcement Learning, Natural Language Processing"   # Update this with a general description of your site, this is the default if not overridden by a page
