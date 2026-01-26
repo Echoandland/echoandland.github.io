@@ -16,21 +16,30 @@ I am a third-year undergraduate student at **National University of Singapore (S
 ## 📝 Publications
 
 <div style="display:flex; gap:20px; margin-bottom:30px;">
-  <img src="images/publications/medical-marl (1).pdf" width="260" style="border-radius:6px;">
+  <img src="images/publications/13961769407075_.pic.jpg" width="260" style="border-radius:6px;">
   <div>
-    <b>Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning</b><br>
-    <i>arXiv:2601.09667 (2026)</i><br>
-    <a href="https://arxiv.org/abs/2601.09667">arXiv</a> ·
-    <a href="https://arxiv.org/pdf/2601.09667">PDF</a>
+    <b>Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs</b><br>
+    <div style="margin:6px 0;">
+      Zhiyuan Hu, <b>Yucheng Wang</b><sup>†</sup>, Yufei He, Jiaying Wu, Yilun Zhao, See-Kiong Ng, Cynthia Breazeal, Anh Tuan Luu, Hae Won Park, Bryan Hooi
+    </div>
+    <div style="margin:6px 0; font-size:0.95em;">
+      <sup>†</sup> Co-first author.
+    </div>
+    <i>arXiv:2601.08763 (2026)</i><br>
+    <a href="https://arxiv.org/abs/2601.08763">arXiv</a> ·
+    <a href="https://arxiv.org/pdf/2601.08763">PDF</a>
   </div>
 </div>
 
 <div style="display:flex; gap:20px; margin-bottom:30px;">
-  <img src="images/publications/Creativity-pics (1).pdf" width="260" style="border-radius:6px;">
+  <img src="images/publications/13951769407055_.pic.jpg" width="260" style="border-radius:6px;">
   <div>
-    <b>Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs</b><br>
-    <i>arXiv:2601.08763 (2026)</i><br>
-    <a href="https://arxiv.org/abs/2601.08763">arXiv</a> ·
-    <a href="https://arxiv.org/pdf/2601.08763">PDF</a>
+    <b>Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning</b><br>
+    <div style="margin:6px 0;">
+      Zhiyuan Hu, Yunhai Hu, Juncheng Liu, Shuyue Stella Li, <b>Yucheng Wang</b>, Zhen Xu, See-Kiong Ng, Anh Tuan Luu, Xinxing Xu, Bryan Hooi, Cynthia Breazeal, Hae Won Park
+    </div>
+    <i>arXiv:2601.09667 (2026)</i><br>
+    <a href="https://arxiv.org/abs/2601.09667">arXiv</a> ·
+    <a href="https://arxiv.org/pdf/2601.09667">PDF</a>
   </div>
 </div>
