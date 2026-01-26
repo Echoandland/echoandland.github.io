@@ -16,7 +16,7 @@ I am a third-year undergraduate student at **National University of Singapore (S
 ## 📝 Publications
 
 <div style="display:flex; gap:20px; margin-bottom:30px;">
-  <img src="/Users/yucheng/Desktop/echoandland.github.io/images/publications/medical-marl (1).pdf" width="260" style="border-radius:6px;">
+  <img src="images/publications/medical-marl (1).pdf" width="260" style="border-radius:6px;">
   <div>
     <b>Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning</b><br>
     <i>arXiv:2601.09667 (2026)</i><br>
@@ -26,7 +26,7 @@ I am a third-year undergraduate student at **National University of Singapore (S
 </div>
 
 <div style="display:flex; gap:20px; margin-bottom:30px;">
-  <img src="/Users/yucheng/Desktop/echoandland.github.io/images/publications/Creativity-pics (1).pdf" width="260" style="border-radius:6px;">
+  <img src="images/publications/Creativity-pics (1).pdf" width="260" style="border-radius:6px;">
   <div>
     <b>Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs</b><br>
     <i>arXiv:2601.08763 (2026)</i><br>
