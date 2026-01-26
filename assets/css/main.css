@@ -1,222 +1,203 @@
-section {
-    padding: 70px 0;
-    border-bottom: 1px dotted #ccc;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+html, body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial;
+  color: #111827;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.imgContainer{
-  float:center;
+a { color: #1f5fbf; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Make container a bit wider on large screens */
+@media (min-width: 1200px) {
+  .container { max-width: 1080px; }
 }
 
-#news p {
-    font-size: 1.5rem;
+/* ===== Light navbar ===== */
+#topNav {
+  background: #ffffff !important;
+  border-bottom: 1px solid #eee;
 }
 
-.footer p {
+#topNav .navbar-brand {
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  color: #111827 !important;
+}
+
+#topNav .nav-link {
+  color: #374151 !important;
+  font-weight: 500;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+#topNav .nav-link.active {
+  color: #111827 !important;
+  font-weight: 700;
+}
+
+/* ===== Page wrap ===== */
+.page-wrap {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+/* ===== Cards ===== */
+.sidebar-card, .content-card {
+  background: #fff;
+  border: 1px solid #eef0f4;
+  border-radius: 18px;
+  padding: 20px 22px;
+}
+
+.content-card {
+  padding: 24px 26px;
+}
+
+/* ===== Sidebar ===== */
+.avatar-placeholder {
+  width: 150px;
+  height: 150px;
+  border-radius: 999px;
+  background: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px auto 14px auto;
+  border: 1px solid #eceef2;
+}
+
+.avatar-placeholder span {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #9aa0a6;
+  letter-spacing: 1px;
+}
+
+.sidebar-name {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 4px;
+  font-size: 1.8rem;
+}
+
+.sidebar-affil {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 14px;
   font-size: 1rem;
 }
 
-.jumbotron {
-    margin-top: 3rem;
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 15%;
-}
-    .jumbotron h2 {
-        margin-top:0;
-    }
-        .jumbotron .container {
-          position:relative;
-          z-index:2;
-        }
-
-.jumbotron-billboard .img {
-    margin-bottom: 0px;
-    opacity: 0.4;
-    color: #fff;
-    background: #000 url("../../images/photos/group_photo_2023.JPG") center center no-repeat;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:1;
+.sidebar-meta {
+  margin: 10px 0 16px 0;
+  color: #374151;
+  font-size: 0.98rem;
 }
 
-.jumbotron-title {
-    padding: 30px;
-    background: rgba(255, 255, 255, 0.7);
+.meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
 }
 
-@media screen and (max-width: 768px) {
-  .jumbotron {
-    padding-top:20px;
-    padding-bottom:20px;
-  }
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
 }
 
-.people-faulty {
-    padding-top: 0rem;
-    padding-bottom: 2rem;
-}
-.people-student {
-    display: inline-block;
-    position: relative;
-    vertical-align: top;
-    float: none;
-    padding-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.our-ul {
-    padding-inline-start: 20px;
+.sidebar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid #e8eaef;
+  border-radius: 12px;
+  color: #111827;
+  background: #fff;
+  font-weight: 600;
 }
 
-.img-round {
-    border-radius: 10%;
-}
-.img-circle {
-    border-radius: 50%;
+.sidebar-link:hover {
+  background: #fafafa;
+  text-decoration: none;
 }
 
-.circular--landscape {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  border-radius: 50%;
+/* ===== Main content typography ===== */
+.content-title {
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.8px;
+  margin-bottom: 14px;
+  color: #111827;
 }
 
-.circular--landscape img {
-  width: 100%;
-  height: auto%;
-  margin-left: -50px;
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: #374151;
+  margin-bottom: 12px;
 }
 
-
-.bio-text {
-    padding: 0.5rem;
+.section-divider {
+  margin: 18px 0;
+  border: 0;
+  border-top: 1px solid #f0f2f6;
 }
 
-.news-bullet li {
-    display: block;
-    font-size: 22px;
-    margin: 1rem;
-}
-    .news-bullet li:before
-    {
-        /*Using a Bootstrap glyphicon as the bullet point*/
-        content: "📌";
-        /*font-family: 'Glyphicons Halflings';*/
-        font-size: 30px;
-        float: left;
-        margin-left: -50px;
-        margin-right: 10px;
-        color: #CCCCCC;
-    }
-
-.post-bullet li {
-    font-size: 1.5rem;
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 12px;
 }
 
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+/* Lists */
+.clean-list {
+  margin: 0;
+  padding-left: 18px;
+  color: #374151;
+  line-height: 1.7;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+/* Publications */
+.pub-item {
+  padding: 14px 0;
+  border-bottom: 1px solid #f3f4f6;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.pub-item:last-child { border-bottom: none; }
+
+.pub-title {
+  font-weight: 800;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  margin-bottom: 6px;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.pub-meta {
+  color: #6b7280;
+  margin-bottom: 6px;
+  font-size: 0.98rem;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+.pub-links a { margin-right: 12px; font-weight: 700; }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+/* Footer */
+.simple-footer {
+  padding: 20px 0 0 0;
   text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  color: #f2f2f2;
-  /*background-color: #717171;*/
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 15s;
-  animation-name: fade;
-  animation-duration: 15s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: 1} 
-  to {opacity: 1}
-  from {opacity: 1} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: 1} 
-  to {opacity: 1}
-  from {opacity: 1} 
-  to {opacity: 1}
+/* Mobile */
+@media (max-width: 991px) {
+  .content-card { margin-top: 18px; }
 }
