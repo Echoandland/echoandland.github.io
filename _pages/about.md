@@ -8,12 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-## About
 
-I am a third-year undergraduate student at the **National University of Singapore (School of Computing)**, double majoring in **Computer Science (AI specialization)** and **Mathematics**.
-
-My research interests lie in **reinforcement learning for large language models**, **LLM reasoning**, and **AI for scientific reasoning**.  
-Outside of academics, I enjoy football and music.
+I am a third-year undergraduate student at **National University of Singapore (School of Computing)**, double majoring in **Computer Science (AI specialization)** and **Mathematics**. Outside of academics, I enjoy football and music.
 
 ---
 
