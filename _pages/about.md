@@ -15,9 +15,10 @@ I am a third-year undergraduate student at **National University of Singapore (S
 <a id="publications"></a>
 ## 📝 Publications
 
-<div style="display:flex; gap:20px; margin-bottom:30px;">
-  <img src="images/publications/13961769407075_.pic.jpg" width="260" style="border-radius:6px;">
-  <div>
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin-bottom:30px; align-items:flex-start;">
+  <img src="images/publications/13961769407075_.pic.jpg"
+       style="width:260px; max-width:100%; height:auto; object-fit:cover; border-radius:6px;">
+  <div style="flex:1; min-width:260px;">
     <b>Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs</b><br>
     <div style="margin:6px 0;">
       Zhiyuan Hu<sup>†</sup>, <b>Yucheng Wang</b><sup>†</sup>, Yufei He<sup>†</sup>, Jiaying Wu, Yilun Zhao, See-Kiong Ng, Cynthia Breazeal, Anh Tuan Luu, Hae Won Park, Bryan Hooi
@@ -31,9 +32,10 @@ I am a third-year undergraduate student at **National University of Singapore (S
   </div>
 </div>
 
-<div style="display:flex; gap:20px; margin-bottom:30px;">
-  <img src="images/publications/13951769407055_.pic.jpg" width="260" style="border-radius:6px;">
-  <div>
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin-bottom:30px; align-items:flex-start;">
+  <img src="images/publications/13951769407055_.pic.jpg"
+       style="width:260px; max-width:100%; height:auto; object-fit:cover; border-radius:6px;">
+  <div style="flex:1; min-width:260px;">
     <b>Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning</b><br>
     <div style="margin:6px 0;">
       Zhiyuan Hu, Yunhai Hu, Juncheng Liu, Shuyue Stella Li, <b>Yucheng Wang</b>, Zhen Xu, See-Kiong Ng, Anh Tuan Luu, Xinxing Xu, Bryan Hooi, Cynthia Breazeal, Hae Won Park
