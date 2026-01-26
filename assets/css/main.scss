@@ -92,4 +92,41 @@
   box-shadow: none !important;
 }
 
+/* =========================
+   Custom overrides (font + nav size)
+   ========================= */
+
+/* Global font (Inter) */
+html { font-size: 16px; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
+}
+
+/* Site title font */
+.site-title {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 700;
+}
+
+/* Make top nav smaller */
+.masthead__menu-item a {
+  font-size: 0.95rem;     /* 想更小用 0.9rem */
+  font-weight: 500;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+/* Slimmer masthead height */
+.masthead__inner-wrap {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
 
