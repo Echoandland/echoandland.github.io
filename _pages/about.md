@@ -13,14 +13,6 @@ I am a third-year undergraduate student at **National University of Singapore (S
 
 ---
 
-## Research Interests
-
-- Reinforcement Learning
-- LLM Reasoning
-- AI for Scientific Reasoning
-
----
-
 ## 📝 Publications
 
 **Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning**  

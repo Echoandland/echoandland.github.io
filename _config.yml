@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "YUCHENG WANG"
-description              : "Undergraduate student. Research interests: Reinforcement Learning, Natural Language Processing"
+title                    : "Yucheng Wang"
+description              : 
 repository               : "Echoandland/echoandland.github.io"
 google_scholar_stats_use_cdn : false
 
