@@ -10,7 +10,6 @@ redirect_from:
 <a id="about"></a>
 
 I am a third-year undergraduate student at **National University of Singapore (School of Computing)**, double majoring in **Computer Science (AI specialization)** and **Mathematics**. I’m driven by a curiosity about whether AI systems can truly innovate on their own\(imagine how exciting it is when an agent independently rediscovering Newton’s Second Law!\) and especially fascinated by how models learn: their training mechanisms, paradigms, and the reasoning patterns that emerge when they face complex, real-world situations. At the same time, I’m excited about interdisciplinary frontiers, particularly AI for Science, where intelligent systems can accelerate discovery across fields.
-
 Outside of research, I’m a football fan and a music enthusiast. Feel free to connect!
 ---
 <a id="publications"></a>
