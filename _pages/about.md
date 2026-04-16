@@ -17,8 +17,7 @@ Outside of research, I’m a football fan and a music enthusiast. Feel free to c
 
 <ul style="list-style:none; padding-left:0; margin-bottom:30px;">
   <li style="margin-bottom:10px;">
-    <span style="display:inline-block; min-width:90px; color:#888; font-variant-numeric:tabular-nums;">2026.04</span>
-    🎉 Our paper <i>“Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs”</i> has been accepted to <b>ACL 2026 Findings</b>!
+    <span style="color:#888; font-variant-numeric:tabular-nums; margin-right:8px;">2026.04:</span>🎉 Our paper <i>“Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs”</i> has been accepted to <b>ACL 2026 Findings</b>!
   </li>
 </ul>
 
@@ -32,8 +31,7 @@ Outside of research, I’m a football fan and a music enthusiast. Feel free to c
     <span style="position:absolute; top:8px; left:8px; background:#2a5caa; color:#fff; font-size:0.78em; font-weight:600; padding:3px 8px; border-radius:4px; box-shadow:0 1px 3px rgba(0,0,0,0.25); letter-spacing:0.3px;">ACL 2026 Findings</span>
   </div>
   <div style="flex:1; min-width:260px;">
-    <b>Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs</b>
-    <span style="display:inline-block; background:#2a5caa; color:#fff; font-size:0.72em; font-weight:600; padding:2px 6px; border-radius:3px; margin-left:6px; vertical-align:middle;">ACL 2026 Findings</span><br>
+    <b>Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs</b><br>
     <div style="margin:6px 0;">
       Zhiyuan Hu<sup>†</sup>, <b>Yucheng Wang</b><sup>†</sup>, Yufei He<sup>†</sup>, Jiaying Wu, Yilun Zhao, See-Kiong Ng, Cynthia Breazeal, Anh Tuan Luu, Hae Won Park, Bryan Hooi
     </div>
