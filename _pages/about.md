@@ -17,7 +17,7 @@ Outside of research, I’m a football fan and a music enthusiast. Feel free to c
 
 <ul style="list-style:none; padding-left:0; margin-bottom:30px;">
   <li style="margin-bottom:10px;">
-    <span style="color:#888; font-variant-numeric:tabular-nums; margin-right:8px;">2026.04:</span>🎉 Our paper <i>“Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs”</i> has been accepted to <b>ACL 2026 Findings</b>!
+    <span style="color:#888; font-variant-numeric:tabular-nums; margin-right:8px;">2026.04:</span>🎉 <i>“Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs”</i> has been accepted to <b>ACL 2026 Findings</b>!
   </li>
 </ul>
 
